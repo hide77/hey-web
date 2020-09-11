@@ -1,0 +1,16 @@
+export const ADD_POST = "ADD_POST";
+export const DELETE_POST = "DELETE_POST";
+export const UPDATE_POST = "UPDATE_POST";
+export const LIKE_UNLIKE_POST = "LIKE_UNLIKE_POST";
+
+export const GET_POSTS_REQUEST = "GET_POSTS_REQUEST";
+export const GET_POSTS_SUCCESS = "GET_POSTS_SUCCESS";
+export const GET_POSTS_FAILED = "GET_POSTS_FAILED";
+
+export const GET_ONE_POST = "GET_ONE_POST";
+
+export const ADD_COMMENT = "ADD_COMMENT";
+export const DELETE_COMMENT = "DELETE_COMMENT";
+export const LIKE_UNLIKE_COMMENT = "LIKE_UNLIKE_COMMENT";
+
+export const GET_COMMENTS_OF_POST = "GET_POSTS_OF_PAGE";

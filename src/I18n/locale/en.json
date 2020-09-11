@@ -1,0 +1,126 @@
+{
+  "navBar": {
+    "search": "Search",
+    "subscriptions": "My Subscriptions",
+    "login": "Log in",
+    "register": "Register",
+    "logout": "Quit",
+    "upload_picture": "Upload Picture",
+    "create_space": "Create My Space"
+  },
+  "sideMenu": {
+    "about": "About",
+    "posts": "Feed",
+    "settings": "Settings",
+    "no_space": "No space",
+    "create": "Create space",
+    "modules": {
+      "chatrooms": "Public Chatrooms",
+      "library": "Library"
+    }
+  },
+  "homePage": {
+    "search_placeholder": "Find an expert, a mentor, a sensei, ...",
+    "search": "Search on Hey",
+    "surprise": "Surprise me",
+    "no_result_title": "We'll find someone for you!",
+    "no_result_content": "👋 We have been notified by your search and will let you know as soon as we find someone!",
+    "no_result_content_visitor": "Create your account or login so we can reach you when we find what you're looking for!",
+    "no_result_login": "Log in",
+    "no_result_register": "Create an account"
+  },
+  "LandingPage": {
+    "header_you_have": "You have a talent,",
+    "header_should_be": "it should be ",
+    "header_highlgiht_word": "valued",
+    "header_description": "Develop a direct relationship with your community and generate predictable, recurring revenue from your talent.",
+    "header_btn": "Start a community",
+    "why_now": "Why start now ?",
+    "why_description": "Hey is a Giver company, helping givers build membership businesses that empower them to monetize their talents without selling their soul through advertisement or such."
+  },
+  "authPage": {
+    "login_title": "Log in",
+    "register_title": "Sign in",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "login_button": "Log in",
+    "register_button": "Sign up",
+    "terms": "By signing in to Hey, you agree to our Terms and Privacy Policy.",
+    "got_account": "Already have an account?",
+    "no_account": "Don't have an account?",
+    "register": "Sign up",
+    "login": "Log in"
+  },
+  "editSpacePage": {
+    "create_title": "Create your space",
+    "title": "Edit your space",
+    "subtitle": "This is what people will see when they'll be looking for help:",
+    "edit_info": "You can edit the information here:",
+    "space_name_label": "What can you share with the world ?",
+    "space_keywords_label": "Add keywords (so people can find you more easily)",
+    "space_description_label": "Enter a desctiption of your space. This is what people will see before they subscribe and the content will serve users to find your space.",
+    "space_name_placeholder": "Space name",
+    "space_keywords_placeholder": "Keywords, separated, by, commas",
+    "space_description_placeholder": "Description",
+    "upload_cover": "Upload a cover image",
+    "sub_price_title": "Subscription Price",
+    "sub_price_subtitle": "This is where you define how much your community will have to pay every month to subscribe to your space.",
+    "per_month": "/month",
+    "danger_zone_title": "Danger zone",
+    "danger_zone_subtitle": "You can unpublish your space. People won't be able to subscribe anymore and it won't apprear in the search results anymore.",
+    "danger_zone_unpublish": "Unpublish",
+    "save_btn": "Save",
+    "cancel_btn": "Cancel",
+    "create_btn": "Create space"
+  },
+  "editorPage": {
+    "preview": "Preview",
+    "edit_modules": "Edit",
+    "save_modules": "Done",
+    "add_article": "New article",
+    "add_folder_article": "New folder/article",
+    "type_folder_name": "Type your folder name:",
+    "type_article_name": "Type your article name:",
+    "folder_name": "Folder name",
+    "article_name": "Article name",
+    "is_folder": "It's a folder"
+  },
+  "noSpacePage": {
+    "title": "🤷‍♂️ You have no subscription yet.. ",
+    "subtitle": "You can subscribe to one on the home page or create your own.",
+    "button": "Discover creators, experts, coaches and more",
+    "sideMenuCreate": "Create your space"
+  },
+  "space": {
+    "subscribers": "{{count}} subscriber",
+    "subscribers_plural": "{{count}} subscribers",
+    "open": "Go",
+    "by": "by"
+  },
+  "stripe": {
+    "subscribe_btn": "Subscribe",
+    "subscribe_description": "Monthly subscription",
+    "subscribe_modal_btn": "Subscribe",
+    "connect_subscribe": "Log in and subscribe",
+    "open": "Free access",
+    "monthly": "{{currency}}{{amount}}/month"
+  },
+  "btn": {
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "add": "Add",
+    "create": "Create",
+    "ok": "Ok"
+  },
+  "error": {
+    "page": {
+      "exists_name": "This name is already taken."
+    }
+  }
+}

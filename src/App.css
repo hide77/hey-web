@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/Dosis-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Dosis-Light.ttf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Dosis-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Dosis-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/Dosis-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Dosis-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/Dosis-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Inconsolata.otf");
+}
+
+@font-face {
+  font-family: "MuseoSansRounded-900";
+  src: url("./assets/fonts/MuseoSansRounded-900.otf");
+}
+@font-face {
+  font-family: "SourceSansPro-Semibold";
+  src: url("./assets/fonts/SourceSansPro-Semibold.otf");
+}
+
+@media only screen and (min-width: 1600px) {
+  .ui.container {
+    width: 1440px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.ui.menu.vertical.sidebar.sidebar_grey {
+  background-color: #e9ebee;
+  border-right: 1px solid #c5cddc;
+}
+
+.ui.menu.vertical.sidebar.navbar {
+  top: 60px !important;
+  padding: 10px;
+  z-index: 100 !important;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.ui.menu.vertical.sidebar.navbar .menu.inline-center {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  /* margin-bottom: 12px; */
+}
+
+.ui.menu.vertical.sidebar.navbar .menu .item:hover,
+.ui.menu.top.fixed .menu .item:hover {
+  cursor: pointer;
+  /* background: rgba(0, 0, 0, 0.03); */
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.ui.menu.vertical.sidebar.navbar .menu .item {
+  /* height: 48px; */
+}
+
+.ui.menu.visible.sidebar {
+  box-shadow: unset !important;
+}
+
+.ui.visible.left.sidebar ~ .pusher {
+  transform: translate3d(0px, 0, 0);
+}
+.ui.left.sidebar,
+.ui.right.sidebar {
+  width: 280px;
+}
+.ui.sidebar {
+  overflow-y: unset !important;
+}
+
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #c678dd;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-literal {
+  color: #56b6c2;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #98c379;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #d19a66;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}

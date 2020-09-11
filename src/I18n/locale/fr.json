@@ -1,0 +1,117 @@
+{
+  "navBar": {
+    "search": "Chercher",
+    "subscriptions": "Mes Abonnements",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "logout": "Quitter",
+    "upload_picture": "Changer la photo",
+    "create_space": "Créer mon espace"
+  },
+  "sideMenu": {
+    "about": "A propos",
+    "posts": "Actualité",
+    "settings": "Paramètres",
+    "no_space": "Aucun espace",
+    "create": "Créez votre espace",
+    "modules": {
+      "chatrooms": "Discussions Publiques",
+      "library": "Bibliothèque"
+    }
+  },
+  "homePage": {
+    "search_placeholder": "Trouvez un expert, un mentor, un sensei, ...",
+    "search": "Chercher sur Hey",
+    "surprise": "Surprenez-moi",
+    "no_result_title": "Nous allons trouver pour vous!",
+    "no_result_content": "👋 Nous avons été notifié de votre recherche et vous recontacte dès qu'on a trouvé!",
+    "no_result_content_visitor": "Créez un compte ou connectez vous pour qu'on puisse vous prévenir quand on a trouvé!",
+    "no_result_login": "Se connecter",
+    "no_result_register": "Créer un compte"
+  },
+  "authPage": {
+    "login_title": "Se connecter",
+    "register_title": "S'inscrire",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "username": "Pseudo",
+    "email": "Email",
+    "password": "Mot de passe",
+    "forgot": "Mot de passe oublié?",
+    "login_button": "Se connecter",
+    "register_button": "S'inscrire",
+    "terms": "En vous inscrivant à Hey, vous acceptez les Conditions d'utilisation.",
+    "got_account": "Déjà inscrit?",
+    "no_account": "Pas encore inscrit?",
+    "register": "S'incrire",
+    "login": "Se connecter"
+  },
+  "editSpacePage": {
+    "create_title": "Créez votre espace",
+    "title": "Modifiez les informations de votre espace",
+    "subtitle": "Voici ce que les utilisateurs verront sur la page de recherche:",
+    "edit_info": "Vous pouvez modifier les informations ici:",
+    "space_name_label": "Qu'avez vous à offrir au monde ?",
+    "space_keywords_label": "Ajoutez des mots-clés (pour que les gens puissent vous trouver plus facilement)",
+    "space_description_label": "Décrivez votre espace. C'est ce que les gens verront avant de s'inscrire et le contenu nous aidera à vous faire trouver dans la recherche.",
+    "space_name_placeholder": "Nom de l'espace",
+    "space_keywords_placeholder": "Mots-clés, séparés, par, des, virgules",
+    "space_description_placeholder": "Description",
+    "upload_cover": "Modifiez votre image de couverture",
+    "sub_price_title": "Prix de l'abonnement",
+    "sub_price_subtitle": "Définissez combien vos membres doivent payer chaque mois pour s'abonner à votre espace.",
+    "per_month": "/mois",
+    "danger_zone_title": "Zone dangereuse",
+    "danger_zone_subtitle": "Désactivez votre espace. Personne ne pourra s'abonner à votre espace et il n'apparaitra plus dans la recherche.",
+    "danger_zone_unpublish": "Désactiver",
+    "save_btn": "Enregistrer",
+    "cancel_btn": "Annuler",
+    "create_btn": "Créer l'espace"
+  },
+  "editorPage": {
+    "preview": "Aperçu",
+    "edit_modules": "Modifier",
+    "save_modules": "Ok",
+    "add_article": "Nouvel article",
+    "add_folder_article": "Nouveau dossier/article",
+    "type_folder_name": "Entrez le nom du dossier:",
+    "type_article_name": "Entrez le nom de l'article:",
+    "folder_name": "Nom du dossier",
+    "article_name": "Nom de l'article",
+    "is_folder": "C'est un dossier"
+  },
+  "noSpacePage": {
+    "title": "🤷‍♂️ Vous n'êtes abonné à aucun espace.. ",
+    "subtitle": "Vous pouvez vous abonner à un espace sur la page d'accueil ou en créer un vous même.",
+    "button": "Découvrez des créateurs, des experts, des coaches et plus",
+    "sideMenuCreate": "Créez votre espace"
+  },
+  "space": {
+    "subscribers": "{{count}} abonné",
+    "subscribers_plural": "{{count}} abonnés",
+    "open": "Go",
+    "by": "par"
+  },
+  "stripe": {
+    "subscribe_btn": "S'abonner",
+    "subscribe_description": "Abonnement mensuel",
+    "subscribe_modal_btn": "S'abonner",
+    "connect_subscribe": "Se connecter et s'abonner",
+    "open": "Accès libre",
+    "monthly": "{{currency}}{{amount}}/mois"
+  },
+  "btn": {
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "add": "Ajouter",
+    "create": "Créer",
+    "ok": "Ok"
+  },
+  "error": {
+    "page": {
+      "exists_name": "Ce nom est déjà pris."
+    }
+  }
+}
